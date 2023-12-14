@@ -1,6 +1,9 @@
 # Simple workflow for deploying static content to GitHub Pages
 name: Deploy webpage from branch other than main
 
+# Define conditions on when this workflow is run. Currently:
+# - on pushing the test-deployment branch
+# - on PRing to the main branch
 on:
   push:
     branches:
