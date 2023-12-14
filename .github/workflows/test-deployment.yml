@@ -44,7 +44,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
-          # Directory
+          # Directory (we would need to change this to ‘./target’ in the actual clay repository
           path: './test-docs'
       - name: Deploy to GitHub Pages
         id: deployment
